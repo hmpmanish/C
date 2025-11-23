@@ -6,4 +6,4 @@ while True:
     os.system('git commit -m "Auto update"')
     os.system("git push origin main")
     print("✅ Code auto pushed to GitHub!")
-    time.sleep(300)  # 5 minutes wait
+    time.sleep(300) # 5 minutes wait
