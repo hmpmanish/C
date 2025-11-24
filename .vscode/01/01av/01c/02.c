@@ -112,7 +112,15 @@ void main() {
     }
 
         printf("\n\n******LOOP IN C*****\n\n");
-        
+
+int index = 0;
+
+while (index < 10)
+{
+    printf("%d \n", index);
+    index++;
+}
+
 
 
     getch();
