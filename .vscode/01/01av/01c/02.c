@@ -78,7 +78,10 @@ void main() {
 
         // Misc Operators - * , &
         printg("\n\n ******Taking input from user*****");
-        
- 
+        int hmpInput;
+        printf("\n  Please enter the value of hmpINnput");
+scanf("%d",&hmpInput);
+        printf("\n  You entered %d as hmpINnput", hmpInput);
+
     getch();
 }
