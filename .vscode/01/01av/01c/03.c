@@ -9,6 +9,7 @@
 void newPrint(char *char )
 void main()
 {
+    printf("%s\n" ,char);
 
     getch(); // Waits for a key press
 }
