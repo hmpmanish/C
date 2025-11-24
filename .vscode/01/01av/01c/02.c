@@ -56,9 +56,16 @@ printf("\n(hmp <= manish) : %d", hmp <= manish);
     // Logical Operators: &&, ||, !
     int h = 0 , m = 1;
     printf("\n the logical operator retured ; %d", h && m);
-    printf("\n the logical operator retured ; %d", h && m);
-    printf("\n the logical operator retured ; %d", h && m);
-    printf("\n the logical operator retured ; %d", h && m);
+    printf("\n the logical operator retured ; %d", h || m);
+    printf("\n the logical operator retured ; %d", ! m);
+    printf("\n the logical operator retured ; %d", ! h);
+
+    //b itesise oprtaor 
+    // A =60 B 14
+    // A  =00111100
+    // B 00001101
+    inT A =60 B 14
+    printf("\n  bitwise operators returned %d",a&b);
 
 
 
