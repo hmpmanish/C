@@ -71,6 +71,14 @@ void main() {
     printf("\nA >> 2 (Right)    = %d", A >> 2);
 
 
-    
+        // Assignment Operators: =, +=, -=, *=, /=, %= 
+        int hm =9;
+        hm +=9;
+        printf("\n hmp is %d" ,hm);
+
+        // Misc Operators - * , &
+        printg("\n\n ******Taking input from user*****");
+        
+ 
     getch();
 }
