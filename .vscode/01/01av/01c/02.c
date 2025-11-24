@@ -7,7 +7,8 @@ void main() {
     float b = 10.0;
     char c = 'a';
 
-    printf("%f", a);   // prints value of a
+    printf("manish %f", b);  
+    
 
     getch();
 }
