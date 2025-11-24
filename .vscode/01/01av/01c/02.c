@@ -77,11 +77,20 @@ void main() {
         printf("\n hmp is %d" ,hm);
 
         // Misc Operators - * , &
-        printg("\n\n ******Taking input from user*****");
-        int hmpInput;
-        printf("\n  Please enter the value of hmpINnput");
-scanf("%d",&hmpInput);
-        printf("\n  You entered %d as hmpINnput", hmpInput);
+        // Misc Operators - * , &
+printf("\n\n ******Taking input from user*****");
+
+int hmpInput;
+
+printf("\nPlease enter the value of hmpInput: ");
+// scanf("%d", &hmpInput);   // & lagana zaroori hai
+
+// printf("\nYou entered %d as hmpInput", hmpInput);
+// printf("\nYou entered %f as hmpInput", (float) hmpInput);
+
+int num1, num2;
+scanf("%d", &num1)
+
 
     getch();
 }
