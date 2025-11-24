@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <conio.h>
 
+// data_type func_name(parameter_type pametermee)
+
+// {
+//      return value_of_type _data_type;
+// }
+void newPrint(char *char )
 void main()
 {
 
-    
-getch();
-
-
+    getch(); // Waits for a key press
 }
