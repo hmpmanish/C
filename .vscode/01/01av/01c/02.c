@@ -18,7 +18,15 @@ void main() {
 
     const int i = 9;  // constant variable
     // i = 10;  // ❌ ERROR: const value cannot be changed
-    
+    manishPandey = 98;
+
+        printf("\n\n******TYPES OF Operators*****");
+
+/*
+
+*/
+Arithmetic Operators: +, -, *, /, %
+       
 
     getch();
 }
