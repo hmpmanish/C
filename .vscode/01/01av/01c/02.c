@@ -96,19 +96,23 @@ printf("\nPlease enter the value of hmpInput: ");
 // printf("\n num1/num2 is %f", (float) num1 / num2);
 
 
-    printf("\n \n******Decision Making in C*****\n\n");
-    int age;
-    printf("enter your age \n");
-    scanf("%d",&age);
-    if(age>=18){
-        printf(" YOUare eligle to vote and drive car")
-    }
-    else{
-        printf("you are not eligle ");
-    }
+    printf("\n\n******Decision Making in C*****\n\n");
 
+int age;
+printf("Enter your age: ");
+scanf("%d", &age);
 
+if (age >= 18) {
+    printf("You are eligible to vote and drive a car.");
+}
+else if (age>=18 && age<21{
+    printf("You are banned for drive and vote.");
 
+}
 
-    getch();
+else  
+    printf("You can drive card");
+    
+}
+getch();
 }
