@@ -102,17 +102,27 @@ int age;
 printf("Enter your age: ");
 scanf("%d", &age);
 
-if (age >= 18) {
+if (age >= 21) {
     printf("You are eligible to vote and drive a car.");
 }
-else if (age>=18 && age<21{
-    printf("You are banned for drive and vote.");
+else if (age >= 18 && age < 21) {
+    printf("You can vote but cannot drive a car.");
+}
+else {
+    printf("You are not eligible to vote or drive.");
+}
+// switch satemnt examplse
+int num;
+printf("Enter a number: ");
+scanf("%d", &num);
 
+switch(num) {
+    case 1: printf("One"); break;
+    case 2: printf("Two"); break;
+    case 3: printf("Three"); break;
+    default: printf("Invalid");
 }
 
-else  
-    printf("You can drive card");
-    
-}
+
 getch();
 }
