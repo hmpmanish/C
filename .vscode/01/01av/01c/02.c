@@ -3,37 +3,57 @@
 
 void main() {
 
-    int a = 10;
-    float b = 10.0;
-    char c = 'a';
+    int a1 = 10;
+    float b1 = 10.0;
+    char c1 = 'a';
 
-    printf("manish %c", c);
+    printf("manish %c", c1);
 
     printf("\n******Rules for creating variables*****");
 
-    int manishPandey;   // variable declaration
-    manishPandey = 76;  // variable initialization
+    int manishPandey;   
+    manishPandey = 76;  
 
-    char five = '5';    // variable declaration + initialization
+    char five = '5';    
 
-    const int i = 9;    // constant variable (Cannot be changed later)
-    // i = 10;  // ERROR if used
+    const int i = 9;    
 
-    manishPandey = 98;  // updating value
+    manishPandey = 98;  
 
-    printf("\n\n******TYPES OF Operators*****");
+    printf("\n\n******TYPES OF Operators*****\n");
 
-/*
-Arithmetic Operators: +, -, *, /, %
-Relational Operators: >, <, >=, <=, ==, !=
-Logical Operators: &&, ||, !
-Assignment Operators: =, +=, -=, *=, /=, %=
-Misc Operators: sizeof, ternary operator (?:)
+    /*
+    Arithmetic Operators: +, -, *, /, %
+    Relational Operators: >, <, >=, <=, ==, !=
+    Logical Operators: &&, ||, !
+    Assignment Operators: =, +=, -=, *=, /=, %=
+    Misc Operators: sizeof, ternary operator (?:)
+    */
+    // Arithmetic Operators: +, -, *, /, %
 
-*/
-//Arithmetic Operators
-int a = 10, b = 7, c= 8;
-printf("'The sum of and b is %d")
+    int a = 10, b = 7, c = 8;
+
+    printf("\nThe sum of a and b is: %d", a + b);
+    printf("\nThe difference of a and b is: %d", a - b);
+    printf("\nThe multiplication of a and b is: %d", a * b);
+
+    printf("\nThe division of a and b is: %d", a / b);   // Correct
+    printf("\nThe modulo of a and b is: %d", a % b);     // Correct
+
+    printf("\nThe increment of a is: %d", ++a);
+    printf("\nThe decrement of b is: %d", --b);
+
+      // Relational Operators: >, <, >=, <=, ==, !=
+int hmp = 5, manish = 7;
+
+printf("\n(hmp == manish) : %d", hmp == manish);
+printf("\n(hmp != manish) : %d", hmp != manish);
+printf("\n(hmp >  manish) : %d", hmp > manish);
+printf("\n(hmp <  manish) : %d", hmp < manish);
+printf("\n(hmp >= manish) : %d", hmp >= manish);
+printf("\n(hmp <= manish) : %d", hmp <= manish);
+
+
 
     getch();
 }
