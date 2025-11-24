@@ -53,6 +53,14 @@ printf("\n(hmp <  manish) : %d", hmp < manish);
 printf("\n(hmp >= manish) : %d", hmp >= manish);
 printf("\n(hmp <= manish) : %d", hmp <= manish);
 
+    // Logical Operators: &&, ||, !
+    int h = 0 , m = 1;
+    printf("\n the logical operator retured ; %d", h && m);
+    printf("\n the logical operator retured ; %d", h && m);
+    printf("\n the logical operator retured ; %d", h && m);
+    printf("\n the logical operator retured ; %d", h && m);
+
+
 
 
     getch();
