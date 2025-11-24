@@ -5,9 +5,9 @@ void main() {
 
     int a = 10;
     float b = 10.0;
-    char c = 'a';   
-    printf("%d");
+    char c = 'a';
 
+    printf("%f", a);   // prints value of a
 
     getch();
 }
