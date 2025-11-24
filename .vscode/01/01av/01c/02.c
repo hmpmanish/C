@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main() {
+void main()
+{
 
     int a1 = 10;
     float b1 = 10.0;
@@ -87,13 +88,16 @@ void main() {
     printf("Enter your age: ");
     scanf("%d", &age);
 
-    if (age >= 21) {
+    if (age >= 21)
+    {
         printf("You are eligible to vote and drive a car.");
     }
-    else if (age >= 18 && age < 21) {
+    else if (age >= 18 && age < 21)
+    {
         printf("You can vote but cannot drive a car.");
     }
-    else {
+    else
+    {
         printf("You are not eligible to vote or drive.");
     }
 
@@ -104,24 +108,35 @@ void main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    switch(num) {
-        case 1: printf("One"); break;
-        case 2: printf("Two"); break;
-        case 3: printf("Three"); break;
-        default: printf("Invalid");
+    switch (num)
+    {
+    case 1:
+        printf("One");
+        break;
+    case 2:
+        printf("Two");
+        break;
+    case 3:
+        printf("Three");
+        break;
+    default:
+        printf("Invalid");
     }
 
-        printf("\n\n******LOOP IN C*****\n\n");
+    printf("\n\n******LOOP IN C*****\n\n");
 
-int index = 0;
+    int index = 0;
 
-while (index < 10)
-{
-    printf("%d \n", index);
-    index++;
-}
-
-
+    while (index < 10)
+    {
+        printf("%d \n", index);
+        index++;
+    }
+    for ( int j = 0; i < 67; j++)
+    {
+        printf("%d \n", j);
+    }
+    
 
     getch();
 }
