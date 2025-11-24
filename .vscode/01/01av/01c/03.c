@@ -1,15 +1,23 @@
 #include <stdio.h>
 #include <conio.h>
 
-// data_type func_name(parameter_type pametermee)
+// Function to print a string
+void newPrint(char *text)
+{
+    printf("%s\n", text);
+}
 
-// {
-//      return value_of_type _data_type;
-// }
-void newPrint(char *char )
+
+
+int sum(int a, int b)
+
+{
+    return a+ b;
+}
 void main()
 {
-    printf("%s\n" ,char);
+    printf("The value is:\n"); // Corrected printf
+
 
     getch(); // Waits for a key press
 }
