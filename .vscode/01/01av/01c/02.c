@@ -26,49 +26,51 @@ void main() {
     Arithmetic Operators: +, -, *, /, %
     Relational Operators: >, <, >=, <=, ==, !=
     Logical Operators: &&, ||, !
-    Assignment Operators: =, +=, -=, *=, /=, %=
+    Assignment Operators: =, +=, -=, *=, /=, %= 
     Misc Operators: sizeof, ternary operator (?:)
     */
-    // Arithmetic Operators: +, -, *, /, %
 
+    // Arithmetic Operators
     int a = 10, b = 7, c = 8;
 
     printf("\nThe sum of a and b is: %d", a + b);
     printf("\nThe difference of a and b is: %d", a - b);
     printf("\nThe multiplication of a and b is: %d", a * b);
-
-    printf("\nThe division of a and b is: %d", a / b);   // Correct
-    printf("\nThe modulo of a and b is: %d", a % b);     // Correct
+    printf("\nThe division of a and b is: %d", a / b);
+    printf("\nThe modulo of a and b is: %d", a % b);
 
     printf("\nThe increment of a is: %d", ++a);
     printf("\nThe decrement of b is: %d", --b);
 
-      // Relational Operators: >, <, >=, <=, ==, !=
-int hmp = 5, manish = 7;
+    // Relational Operators
+    int hmp = 5, manish = 7;
 
-printf("\n(hmp == manish) : %d", hmp == manish);
-printf("\n(hmp != manish) : %d", hmp != manish);
-printf("\n(hmp >  manish) : %d", hmp > manish);
-printf("\n(hmp <  manish) : %d", hmp < manish);
-printf("\n(hmp >= manish) : %d", hmp >= manish);
-printf("\n(hmp <= manish) : %d", hmp <= manish);
+    printf("\n(hmp == manish) = %d", hmp == manish);
+    printf("\n(hmp != manish) = %d", hmp != manish);
+    printf("\n(hmp > manish)  = %d", hmp > manish);
+    printf("\n(hmp < manish)  = %d", hmp < manish);
+    printf("\n(hmp >= manish) = %d", hmp >= manish);
+    printf("\n(hmp <= manish) = %d", hmp <= manish);
 
-    // Logical Operators: &&, ||, !
-    int h = 0 , m = 1;
-    printf("\n the logical operator retured ; %d", h && m);
-    printf("\n the logical operator retured ; %d", h || m);
-    printf("\n the logical operator retured ; %d", ! m);
-    printf("\n the logical operator retured ; %d", ! h);
+    // Logical Operators
+    int h = 0, m = 1;
 
-    //b itesise oprtaor 
-    // A =60 B 14
-    // A  =00111100
-    // B 00001101
-    inT A =60 B 14
-    printf("\n  bitwise operators returned %d",a&b);
+    printf("\nLogical AND  (h && m) = %d", h && m);
+    printf("\nLogical OR   (h || m) = %d", h || m);
+    printf("\nLogical NOT  (!m)     = %d", !m);
+    printf("\nLogical NOT  (!h)     = %d", !h);
+
+    // Bitwise Operators
+    int A = 60, B = 13;
+
+    printf("\nA & B (AND)       = %d", A & B);
+    printf("\nA | B (OR)        = %d", A | B);
+    printf("\nA ^ B (XOR)       = %d", A ^ B);
+    printf("\n~A  (NOT)         = %d", ~A);
+    printf("\nA << 2 (Left)     = %d", A << 2);
+    printf("\nA >> 2 (Right)    = %d", A >> 2);
 
 
-
-
+    
     getch();
 }
