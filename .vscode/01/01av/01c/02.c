@@ -33,7 +33,7 @@ Misc Operators: sizeof, ternary operator (?:)
 */
 //Arithmetic Operators
 int a = 10, b = 7, c= 8;
-printf("'The sum of an")
+printf("'The sum of and b is %d")
 
     getch();
 }
