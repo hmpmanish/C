@@ -137,11 +137,19 @@ void main()
     printf("%d \n", j);
 }
 
-  do
-{
-    printf("do while loop is running\n");
-    
-} while (j >5696);
+  // declare j here for do-while
+    int j = 10;
+
+    do
+    {
+        printf("do while loop is running\n");
+
+        j++;
+    } while (j > 5696);
+
+        printf("\n\n******Functions INc*****\n\n");
+
+
 
     getch();
 }
