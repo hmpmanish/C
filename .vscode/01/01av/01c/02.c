@@ -81,25 +81,25 @@ void main()
 
     printf("\nYou entered %d as hmpInput", hmpInput);
 
-    // Decision Making
-    printf("\n\n******Decision Making in C*****\n\n");
+    // // Decision Making
+    // printf("\n\n******Decision Making in C*****\n\n");
 
-    int age;
-    printf("Enter your age: ");
-    scanf("%d", &age);
+    // int age;
+    // printf("Enter your age: ");
+    // scanf("%d", &age);
 
-    if (age >= 21)
-    {
-        printf("You are eligible to vote and drive a car.");
-    }
-    else if (age >= 18 && age < 21)
-    {
-        printf("You can vote but cannot drive a car.");
-    }
-    else
-    {
-        printf("You are not eligible to vote or drive.");
-    }
+    // if (age >= 21)
+    // {
+    //     printf("You are eligible to vote and drive a car.");
+    // }
+    // else if (age >= 18 && age < 21)
+    // {
+    //     printf("You can vote but cannot drive a car.");
+    // }
+    // else
+    // {
+    //     printf("You are not eligible to vote or drive.");
+    // }
 
     // Switch Statement
     printf("\n\n******Switch Statement Example*****\n\n");
@@ -132,11 +132,16 @@ void main()
         printf("%d \n", index);
         index++;
     }
-    for ( int j = 0; i < 67; j++)
-    {
-        printf("%d \n", j);
-    }
+    for (int j = 0; j < 65; j++)
+{
+    printf("%d \n", j);
+}
+
+  do
+{
+    printf("do while loop is running\n");
     
+} while (j >5696);
 
     getch();
 }
