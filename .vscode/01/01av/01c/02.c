@@ -14,20 +14,26 @@ void main() {
     int manishPandey;   // variable declaration
     manishPandey = 76;  // variable initialization
 
-    char five = '5'; // variable declaration and initialization
+    char five = '5';    // variable declaration + initialization
 
-    const int i = 9;  // constant variable
-    // i = 10;  // ❌ ERROR: const value cannot be changed
-    manishPandey = 98;
+    const int i = 9;    // constant variable (Cannot be changed later)
+    // i = 10;  // ERROR if used
 
-        printf("\n\n******TYPES OF Operators*****");
+    manishPandey = 98;  // updating value
+
+    printf("\n\n******TYPES OF Operators*****");
 
 /*
+Arithmetic Operators: +, -, *, /, %
+Relational Operators: >, <, >=, <=, ==, !=
+Logical Operators: &&, ||, !
+Assignment Operators: =, +=, -=, *=, /=, %=
+Misc Operators: sizeof, ternary operator (?:)
 
 */
-Arithmetic Operators: +, -, *, /, %
-Relatioanal Opera
-       
+//Arithmetic Operators
+int a = 10, b = 7, c= 8;
+printf("'The sum of an")
 
     getch();
 }
