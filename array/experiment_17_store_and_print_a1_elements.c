@@ -15,6 +15,8 @@ int main() {
     printf("The numbers you entered are:\n");
     for (int i = 0; i < 10; i++) {
         printf("%d\n", numbers[i]);
+
+        
     }
 
 }
