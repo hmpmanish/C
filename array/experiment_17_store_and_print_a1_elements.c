@@ -2,7 +2,7 @@
 
 int main() {
     int numbers[10];
-
+ // hm
     // store elements
     printf("Enter 10 numbers:\n");
     for (int i = 0; i < 10; i++) {   // ❌ use ; not ,
