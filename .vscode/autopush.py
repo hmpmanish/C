@@ -1,25 +1,24 @@
 import os
 import time
 
-# Path to your local repo
 repo_path = r"C:\Users\Manish Pandey\Desktop\SU\c"
 
 while True:
     os.chdir(repo_path)
-    
-    # Pull latest changes first to avoid non-fast-forward error
-    os.system("git pull origin main --rebase")
-    
-    # Stage changes
+
+    # Stage all changes
     os.system("git add .")
     
-    # Commit changes with a generic message
-    os.system('git commit -m "Auto update"')
+    # Commit changes with message, ignore error if nothing to commit
+    os.system('git commit -m "Auto update" || echo "No changes to commit"')
+    
+    # Pull latest changes safely with rebase
+    os.system("git pull origin main --rebase || echo 'Pull failed, check manually'")
     
     # Push to GitHub
-    os.system("git push origin main")
+    os.system("git push origin main || echo 'Push failed, check manually'")
     
-    print("✅ Code auto pushed to GitHub!")
+    print("✅ Auto push attempt completed!")
     
-    # Wait for 5 minutes (300 seconds) before next push
+    # Wait 5 minutes
     time.sleep(300)
